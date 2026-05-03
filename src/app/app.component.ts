@@ -14,8 +14,24 @@ showAlert(e: any): void {
   } else {
     this.isva = false;
   }
-}
 
+}
+num:number=0;
+  inc():void {
+    this.num++;
+
+  }
+  dec() :void {
+    if(this.num>0){
+      this.num--;
+    }
+    else{
+      this.num=0;
+    }
+  }
+  res() :void {
+    this.num = 0;
+  }
 
 }
 
